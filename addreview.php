@@ -1,8 +1,8 @@
 <?php
 
-$hostname = "localhost";
-$username = "root";
-$password = "302076";
+$hostname = "root@localhost";
+$username = "review_site";
+$password = "12345";
 $db = "reviews";
 
 $dbconnect=mysqli_connect($hostname,$username,$password,$db);
