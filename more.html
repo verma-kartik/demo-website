@@ -157,6 +157,11 @@
 			width: 800px;
 		}
 
+		#more3{
+			margin-top: 50px;
+			font: normal 1.4em 'century gothic';
+		}
+
 		#footer{
     		height: 200px;
     		margin: 0;
@@ -247,7 +252,7 @@
 
                 Every conventional AI has programming, or some sort of supervised plan or method of input. Sophia is able to respond and express herself in a more human way thanks to three key facets:
 
-				
+
                 <br><br>
 
 	        <ul id="more4">
@@ -324,6 +329,37 @@
 				Don’t think assistants like <b>Alexa</b>, <b>Siri</b>, or <b>Google Home</b>. There are chatbots designed to embody specific personalities such as a flirtatious woman, a 31-year-old hacker/computer analyst, and more.
 			</p>
 	    </div>
+
+		<div id="more3">
+			<center>
+			
+				Let us know what do you think about A.I and how would you rate us!
+
+				<br><br>
+
+  				<form action="addreview.php" method="POST">
+
+      				Your name: <input type="text" name="reviewer_name"><br><br>
+
+      				How many stars would you give us? 
+       					<select name="star_rating">
+       					   <option value="1">1 star</option>
+       					   <option value="2">2 stars</option>
+       					   <option value="3">3 stars</option>
+        				   <option value="4">4 stars</option>
+         				   <option value="5">5 stars</option>
+        				</select>
+						<br><br>
+
+    				Your review: <br>
+        				<textarea name="details" rows="10" cols="30"></textarea><br><br>
+
+      					<input type="submit" value="Submit" name="submit">
+
+ 				 </form>
+			</center>
+
+		</div>
 
 	    <div id="footer"> </div>
 	</center>
